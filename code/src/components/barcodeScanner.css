@@ -1,0 +1,21 @@
+.scanner {
+  background-image: url('../assets/french-toast.jpg');
+  background-size: cover;
+  width: 80%;
+  margin: 0 auto;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scanner video {
+  /*  transform: scaleX(-1); flip the video */
+  width: 60%;
+  border-radius: 10px;
+}
+
+.scanner canvas {
+  /* border: 2px solid black; */
+  height: 0;
+}
